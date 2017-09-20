@@ -487,7 +487,7 @@
    var term = Object.create(Terminal);
    term.init(CONFIG, '/jsterm/json/sample.json', COMMANDS, function() {
       term.enqueue('login')
-          .enqueue('clark')
+          .enqueue('scp')
           .enqueue('******')
           .enqueue('cat file1')
           .enqueue('help')
