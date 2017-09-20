@@ -485,7 +485,7 @@
    }
 
    var term = Object.create(Terminal);
-   term.init(CONFIG, '/json/sample.json', COMMANDS, function() {
+   term.init(CONFIG, '/jsterm/json/sample.json', COMMANDS, function() {
       term.enqueue('login')
           .enqueue('clark')
           .enqueue('******')
