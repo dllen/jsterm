@@ -13,6 +13,7 @@
 // limitations under the License.
 
 var CONFIG = CONFIG || {};
+CONFIG.username = 'scp';
 
 CONFIG.prompt = function(cwd, user) {
    if (user)
@@ -20,5 +21,3 @@ CONFIG.prompt = function(cwd, user) {
           cwd + '</span>$ ';
    return 'jsterm1.0 $ ';
 };
-
-CONFIG.username = 'scp';
